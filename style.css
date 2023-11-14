@@ -1,0 +1,239 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+    display: swap;
+}
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 30px;
+
+}
+
+h3 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 26px;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.header {
+    background: white;
+    border-bottom: 1px solid #A1A6B4;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header__elements {
+    display: flex;
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background: #F1F1F1;
+}
+
+.subtitle {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    gap: 25px;
+}
+
+p {
+    font-family: Anonymous Pro, sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    color: inherit;
+}
+
+img {
+    width: 370px;
+}
+
+.link {
+    display: block;
+    text-align: right;
+}
+
+.logo {
+    margin-left: 145px;
+}
+
+.svg_logo {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-left: 30;
+}
+
+
+.header_links {
+    display: inline-flex;
+    gap: 24px;
+    margin-left: auto;
+    font-family: "Anonymous Pro", sans-serif;
+    font-weight: 700;
+}
+
+.header-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    max-width: 1161px;
+}
+
+.main {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background: #F1F1F1;
+    box-sizing: border-box;
+}
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 371px;
+    width: 100%;
+    background: white;
+    gap: 24px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.sneaker {
+    display: inline-block;
+    background-color: #F1F1F1;
+    max-width: 1161px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    gap: 24px;
+    border-radius: 12px;
+}
+
+.sneaker__text {
+    text-align: left;
+    font-weight: 400;
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 20px;
+    font-family: Anonymous Pro;
+    line-height: 20px;
+    color: #121723;
+}
+
+.sneaker__title {
+    text-align: left;
+    font-weight: 700;
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 26px;
+    font-family: Anonymous Pro;
+    line-height: 26px;
+    color: #121723;
+}
+
+.footer_elements {
+    color: #FFFFFF;
+    display: flex;
+    text-decoration: none;
+    gap: 24px;
+}
+
+.footer_pic {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #ffffff;
+    font-family: "Anonymous Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.underline {
+    color: white;
+    justify-content: center
+}
+
+.footer_links {
+    display: inline-flex;
+    color: white;
+    gap: 24px;
+    justify-content: space-between;
+    font-family: "Anonymous Pro", sans-serif;
+    font-weight: 700;
+
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1161px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer {
+    background: var(--black, #121723);
+    width: 100%;
+}
+
+.underline {
+    color: #A1A6B4;
+    display: flex;
+    justify-content: center
+}
